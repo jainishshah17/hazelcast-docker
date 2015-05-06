@@ -1,4 +1,4 @@
-FROM dockerfile/java:oracle-java8
+FROM java:7
 EXPOSE 5701
 ENV HZ_VERSION 3.4.2
 ENV HZ_HOME /opt/hazelcast/
